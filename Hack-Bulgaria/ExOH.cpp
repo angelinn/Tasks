@@ -10,5 +10,5 @@ bool ExOH(const char* str)
 		if(str[i] == target)
 			++timesMet;
 
-	return (stringSize / timesMet) == 2;
+	return (stringSize - timesMet) == timesMet;
 }
